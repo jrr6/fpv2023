@@ -19,6 +19,8 @@ namespace LoVe
 
 namespace BackwardProofs
 
+def thisThingDoesntCompile := rfl rfl rfl
+
 
 /- ## Question 1 (3 points): Connectives and Quantifiers
 
@@ -213,7 +215,7 @@ definition, you can use `rw`.) -/
 
 @[autograded 3] theorem pythagorean_triple_not_all_squares (a b c : ℕ) :
   IsPythagoreanTriple a b c → ¬(IsSquare a ∧ IsSquare b ∧ IsSquare c) :=
-  sorry
+  whoops, this does not compile!
 
 
 end BackwardProofs
