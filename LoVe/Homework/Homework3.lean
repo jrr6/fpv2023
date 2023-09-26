@@ -73,10 +73,6 @@ Provide a structured proof showing that this premise implies `False`.
 
 
 section
-  variable (Person : Type)
-  variable (shaves : Person → Person → Prop)
-  variable (barber : Person)
-  variable (h : ∀ x, shaves barber x ↔ ¬ shaves x x)
   
   -- Show the following:
   @[autograded 1] theorem false_of_barber
