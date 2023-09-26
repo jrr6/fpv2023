@@ -80,7 +80,8 @@ section
   
   -- Show the following:
   @[autograded 1] theorem false_of_barber : False :=
-   sorry 
+  -- Delete this line and replace it with your proof!
+    (sorry : ∀ {α β γ δ}, α → β → γ → δ → False) Person shaves barber h
 end
 
 
