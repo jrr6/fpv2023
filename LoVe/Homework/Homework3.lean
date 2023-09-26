@@ -79,9 +79,14 @@ section
   variable (h : ∀ x, shaves barber x ↔ ¬ shaves x x)
   
   -- Show the following:
-  @[autograded 1] theorem false_of_barber : False :=
+  @[autograded 1] theorem false_of_barber
+    (Person : Type)
+    (shaves : Person → Person → Prop)
+    (barber : Person)
+    (h : ∀ x, shaves barber x ↔ ¬ shaves x x)
+    : False :=
     -- Delete the line below and replace it with your solution!
-    (sorry : ∀ {α}, α → False) h
+    sorry
 end
 
 
