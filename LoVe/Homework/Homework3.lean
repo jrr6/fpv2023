@@ -39,14 +39,14 @@ Hint: There is an easy way. -/
 
 @[autograded 1] theorem about_Impl_term :
   ∀a b : Prop, ¬ a ∨ b → a → b :=
-  sorry
+  sorry sorry sorry
 
 /- 1.2 (2 points). Prove the same theorem again, this time by providing a
 structured proof, with `fix`, `assume`, and `show`. -/
 
 @[autograded 2] theorem about_Impl_struct :
   ∀a b : Prop, ¬ a ∨ b → a → b :=
-  sorry
+  rfl rfl rfl
 
 /-
 1.3 (2 points). The following lemma will be helpful for part 4.
@@ -118,7 +118,7 @@ You might find some of the following lemmas useful!
 
 @[autograded 2] lemma difference_of_squares (a b : ℤ) :
   (a + b) * (a - b) = a * a - b * b :=
-  sorry
+  some stuff that (sorry) does not compile
 
 
 end LoVe
