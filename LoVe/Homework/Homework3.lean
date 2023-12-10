@@ -132,7 +132,7 @@ following lemma, using dot notation at least once:
 -/
 
 @[autograded 1]
-lemma dotAndSwap (P Q R : Prop) (hpq : P ∧ Q ∧ R) : Q ∧ P := 
+unsafe def dotAndSwap (P Q R : Prop) (hpq : P ∧ Q ∧ R) : Q ∧ P := 
 sorry 
 
 
